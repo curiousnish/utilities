@@ -1,0 +1,65 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "CaskaydiaCove Nerd Font, CaskaydiaCove NF, Consolas, 'Courier New', monospace",
+    "editor.formatOnSave": true,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.wordWrap": "on",
+    "files.autoSave": "onFocusChange",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.fontLigatures": true,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "git.confirmSync": false,
+    "editor.cursorBlinking": "expand",
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#ffff00",
+        "terminalCursor.foreground": "#ffff00"
+    },
+    "workbench.colorTheme": "Night Owl",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Windows PowerShell": {
+            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "powershell.powerShellDefaultVersion": "Windows PowerShell (x64)",
+    "git.autofetch": true,
+    "workbench.editorAssociations": {
+        "*.csv": "gc-excelviewer-csv-editor"
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "editor.fontSize": 18,
+    "indentRainbow.colorOnWhiteSpaceOnly": true,
+    "indentRainbow.lightIndicatorStyleLineWidth": 6,
+    "terminal.integrated.inheritEnv": false,
+    "editor.minimap.enabled": false,
+    "workbench.sideBar.location": "right",
+    "dart.flutterSdkPath": "/Users/nishith/development/flutter"
+}
