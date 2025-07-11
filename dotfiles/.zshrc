@@ -36,7 +36,7 @@ alias cau='conda activate utils'
 alias caml='conda activate ml'
 
 ## Open Github folder
-alias dev='cd /Users/nishith/Haha/dev'
+alias dev='cd /Users/nishith/Code'
 
 ## Obsidian
 # cd to the main vault
@@ -90,3 +90,8 @@ bindkey "þ" fzf-cd-widget
 # if command -v ngrok &>/dev/null; then
 #     eval "$(ngrok completion)"
 # fi
+
+# nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
